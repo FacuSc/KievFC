@@ -126,4 +126,8 @@ footer {
   header {
     background-image: url(../img/header-celu1.svg);
   }
+
+  .navegador {
+    width: 99vw;
+  }
 }
