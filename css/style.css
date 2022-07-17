@@ -117,3 +117,13 @@ footer {
   display: inline-flex;
 }
 
+@media screen and (max-width: 480px) { 
+
+  h1 { 
+      font-size: 20px;
+  }
+
+  header {
+    background-image: url(../img/header-celu1.svg);
+  }
+}
