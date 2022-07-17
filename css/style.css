@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+:root {
+  --colorNavBar: #222222;
+}
+
+h1 {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+header {
+  background-image: url(../img/team-header.svg);
+  height: 50vw;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+  .navegador {
+    background-color: var(--colorNavBar);
+    display: inline-flex;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navegador a {
+    margin-left: 20px;
+  }
+
+  .logoizq {
+    align-items: flex-end;
+  }
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+.section-noticias {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  float: right;
+  width: 70%;
+  margin-right: 10%;
+}
+
+.header-section {
+  background-color: #BBBBBB;
+  height: 300px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+article {
+  border: 1px solid black;
+  background: rgb(0,0,0);
+  background: linear-gradient(342deg, rgba(0,0,0,0.8855917366946778) 0%, rgba(255,0,0,1) 16%, rgba(198,32,32,0.8239670868347339) 40%, rgba(235,31,31,0.8211659663865546) 60%, rgba(255,0,0,1) 83%, rgba(0,0,0,0.8855917366946778) 100%);
+}
+
+aside {
+  float: left;
+  width: 20%;
+  margin-top: 370px;
+}
+
+.noticia-principal {
+  text-align: center;
+}
+
+.articulo-noticias {
+  border-radius: 5%;
+}
+
+h2 {
+  font-size: 70px;
+  font-family: 'Bebas Neue', cursive;
+  font-style: italic;
+}
+
+div {
+  margin: 10px;
+}
+
+button {
+  display: none;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: grey;
+}
+
+aside img {
+  width: 80%;
+}
+
+footer {
+  display: inline-flex;
+}
+
